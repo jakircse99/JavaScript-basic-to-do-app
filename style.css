@@ -53,3 +53,15 @@ h3 {
     width: 2rem;
     text-align: center;
 }
+
+.delete {
+    height: 2rem;
+    width: 5rem;
+    background-color: #8d030e;
+    color:whitesmoke;
+    display: inline;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+}
