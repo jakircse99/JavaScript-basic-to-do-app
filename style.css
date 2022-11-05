@@ -1,0 +1,55 @@
+body {
+    margin-top: 50px;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.inputData {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.button {
+    background-color:#130f40 ;
+}
+
+.incomplete {
+    width: 100%;
+    min-height: 50vh;
+    background-color:#433f74 ;
+    border-radius: 10px;
+    
+}
+
+.complete {
+    background-color:#130f40 ;
+    border-radius: 10px;
+}
+
+#incomplete-list {
+    list-style-type: none;
+    color: whitesmoke;
+    font-size: 2.5rem;
+}
+
+#complete-list {
+    list-style-type: none;
+    color: whitesmoke;
+    font-size: 2.5rem;
+}
+
+#incomplete-list li input {
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+}
